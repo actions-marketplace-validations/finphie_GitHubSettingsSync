@@ -133,7 +133,7 @@ jobs:
           Write-Output "::set-output name=repository_name::$repositoryName"
 
       - name: Build and push
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v4
         with:
           push: true
           build-args: VERSION=${{ needs.check.outputs.version }}
