@@ -3,7 +3,7 @@
   <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Packages.props', '$(MSBuildThisFileDirectory)../'))" />
 
   <ItemGroup>
-    <PackageVersion Include="ConsoleAppFramework" Version="5.4.0" />
+    <PackageVersion Include="ConsoleAppFramework" Version="5.7.13" />
     <PackageVersion Include="FToolkit.Helpers.GitHub" Version="2.0.0" />
     <PackageVersion Include="FToolkit.Net.GitHub.Client" Version="2.0.0" />
   </ItemGroup>
